@@ -10,5 +10,6 @@
     "serve": "^13.0.2"
   },
   "author": "Waqas Naveed",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
