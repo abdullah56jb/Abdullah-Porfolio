@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdullah Imtiaz - Computer Science Portfolio</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/developer.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container" id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" data-aos="fade-right">
+                <span>AI</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" data-aos="fade-down" data-aos-delay="100">Home</a>
+                <a href="#about" class="nav-link" data-aos="fade-down" data-aos-delay="200">About</a>
+                <a href="#skills" class="nav-link" data-aos="fade-down" data-aos-delay="300">Skills</a>
+                <a href="#projects" class="nav-link" data-aos="fade-down" data-aos-delay="400">Projects</a>
+                <a href="#experience" class="nav-link" data-aos="fade-down" data-aos-delay="450">Experience</a>
+                <a href="#contact" class="nav-link" data-aos="fade-down" data-aos-delay="500">Contact</a>
+                <a href="./assets/Abdullah_Cv (1).pdf"btn btn-primary nav-btn" data-aos="fade-down" data-aos-delay="600">Download CV</a>
+            </div>
+            <div class="hamburger" data-aos="fade-left">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Computer Science Graduate</h4>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Abdullah Imtiaz</span>
+                </h1>
+                <p class="hero-text" data-aos="fade-up" data-aos-delay="400">
+                    Motivated and results-oriented Computer Science graduate committed to developing innovative, scalable, and secure technology solutions.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="600">
+                    <span>Follow me:</span>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abdullah-imtiaz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/abdullah56jb" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="700">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Computer Science" class="hero-bg">
+                    <div class="floating-tech">
+                        <div class="tech-icon" style="--i:1">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                        </div>
+                        <div class="tech-icon" style="--i:2">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        </div>
+                        <div class="tech-icon" style="--i:3">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        </div>
+                        <div class="tech-icon" style="--i:4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                        </div>
+                        <div class="tech-icon" style="--i:5">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Get to know me</h4>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-container">
+                        <img src="./dp.png" alt="Abdullah Imtiaz">
+                        <div class="experience-badge">
+                            <div class="badge-content">
+                                <span class="years">3+</span>
+                                <span class="text">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Who am I?</h3>
+                    <p>
+                        I'm a passionate Computer Science graduate from FAST-NUCES University with expertise in DevOps, NLP, AI, and Information Security. I build innovative solutions that solve real-world problems.
+                    </p>
+                    <p>
+                        My approach combines cutting-edge technology with robust software engineering principles to deliver scalable, production-ready solutions. I'm particularly interested in the intersection of AI and security.
+                    </p>
+                    <div class="about-tabs">
+                        <div class="tab active" data-tab="skills">Main Skills</div>
+                        <div class="tab" data-tab="education">Education</div>
+                        <div class="tab" data-tab="contact">Contact Info</div>
+                    </div>
+                    <div class="tab-content active" data-tab-content="skills">
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-name">Programming (C/C++/Python)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">DevOps</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Natural Language Processing</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" data-tab-content="education">
+                        <div class="education-item">
+                            <h4>Bachelor of Computer Science</h4>
+                            <p>FAST-NUCES University (06/2021-06/2025)</p>
+                            <p>Relevant Coursework: DevOps, Natural Language Processing (NLP), Information Security, Web Engineering, Software Engineering, Generative AI, Data Science, Artificial Intelligence (AI), Digital Image Processing, Database Management, Data Structures and Algorithms, Object-Oriented Programming (OOP), Programming Fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" data-tab-content="contact">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <a href="tel:+923249481381">+92 324 9481381</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <a href="mailto:ranaabdullahimtiaz@gmail.com">ranaabdullahimtiaz@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">What I'm expert at</h4>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                
+                <!-- AI & Data Science -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI & Data Science</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                                    <span>Machine Learning</span>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch">
+                                    <span>Natural Language Processing</span>
+                                </div>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                                    <span>Data Science</span>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DevOps -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                    <span>Docker</span>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                                    <span>Kubernetes</span>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+                                    <span>Argo-CD/Flux-CD</span>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                                    <span>HTML/CSS</span>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                    <span>JavaScript</span>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                    <span>Web Engineering</span>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">My professional journey</h4>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-date">Aug 2024 - Dec 2024</div>
+                    <div class="timeline-content">
+                        <h3>Teacher Assistant - Theory of Automata</h3>
+                        <h4>FAST-NUCES</h4>
+                        <ul>
+                            <li>Streamlined assessments, improved mentoring in automata theory</li>
+                            <li>Strengthened leadership through course material development and interactive sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-date">Jan 2023 - May 2023</div>
+                    <div class="timeline-content">
+                        <h3>Teacher Assistant - ICT</h3>
+                        <h4>FAST-NUCES</h4>
+                        <ul>
+                            <li>Driven improved student performance through effective mentorship</li>
+                            <li>Efficient resource management and application of key ICT skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">My recent work</h4>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="ai" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="HealthGenix">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3>HealthGenix (FYP)</h3>
+                        <p class="project-description">
+                            AI-powered fitness and rehabilitation app that uses machine learning for real-time body pose detection, automated exercise counting, and personalized workout and diet recommendations. Integrates a chatbot for user interaction and provides expert training videos.
+                        </p>
+                        <a href="#" class="project-details">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="devops" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Argo-CD">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">CI/CD</span>
+                        </div>
+                        <h3>Argo-CD/Flux-CD in DevOps</h3>
+                        <p class="project-description">
+                            Implemented Argo CD and Flux CD for GitOps-driven continuous delivery in Kubernetes, automating deployments and ensuring version-controlled, reliable application synchronization.
+                        </p>
+                        <a href="#" class="project-details">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="security" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Keylogger">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Security</span>
+                            <span class="tag">Ethical Hacking</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3>Advanced Keylogger</h3>
+                        <p class="project-description">
+                            Developed an advanced keylogger that captures keystrokes, voice recordings, and screenshots, sending the data securely via email. Focused on enhancing security awareness and understanding potential threats in real-world environments.
+                        </p>
+                        <a href="#" class="project-details">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="web" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="Real Estate">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">Database</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>Real Estate Management System</h3>
+                        <p class="project-description">
+                            Developed a web-based Real Estate Management System for listing, searching, and managing properties. Implemented user authentication and transaction tracking, enhancing user experience and operational efficiency.
+                        </p>
+                        <a href="#" class="project-details">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80" alt="Weather App">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">API</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>Weather Application</h3>
+                        <p class="project-description">
+                            Developed a weather application using the OpenWeather API to provide real-time weather updates, forecasts, and location-based data. Integrated features like temperature, humidity, and weather conditions.
+                        </p>
+                        <a href="#" class="project-details">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">Get in touch</h4>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about opportunities</h3>
+                    <p>I'm available for freelance work and full-time positions. Feel free to contact me for any questions or opportunities.</p>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:ranaabdullahimtiaz@gmail.com">ranaabdullahimtiaz@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <a href="tel:+923249481381">+92 324 9481381</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abdullah-imtiaz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/abdullah56jb" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <span>AI</span>
+                        <span class="logo-dot">.</span>
+                    </a>
+                    <p>Computer Science graduate creating innovative technology solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/abdullah-imtiaz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/abdullah56jb" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">DevOps</a></li>
+                        <li><a href="#">AI/ML</a></li>
+                        <li><a href="#">Information Security</a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to my newsletter for the latest updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Abdullah Imtiaz. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" data-aos="fade-up">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
